@@ -122,8 +122,32 @@
 	icon_state = "white"
 
 /area/adminlevel/ert_station/weyland_station
-	name = "Weyland-Yutani Station"
+	name = "USS Royce"
+	icon_state = "orange"
+
+/area/adminlevel/ert_station/weyland_station/med
+	name = "USS Royce - Medical"
+	icon_state = "green"
+
+/area/adminlevel/ert_station/weyland_station/engi
+	name = "USS Royce - Engineering"
+	icon_state = "yellow"
+
+/area/adminlevel/ert_station/weyland_station/sec
+	name = "USS Royce - Security"
 	icon_state = "red"
+
+/area/adminlevel/ert_station/weyland_station/lounge
+	name = "USS Royce - Lounge"
+	icon_state = "green"
+
+/area/adminlevel/ert_station/weyland_station/office
+	name = "USS Royce - Offices"
+	icon_state = "orange" //placeholder, replace
+
+/area/adminlevel/ert_station/weyland_station/rnd
+	name = "USS Royce - Research"
+	icon_state = "blue"
 
 /area/adminlevel/ert_station/uscm_station
 	name = "USCM Station"
