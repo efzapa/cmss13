@@ -6,15 +6,13 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"aX" = (
+/obj/structure/machinery/iv_drip,
+/turf/open/floor/almayer/sterile_green_side/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "bg" = (
 /turf/open/floor/wood/ship,
 /area/space)
-"bs" = (
-/obj/structure/machinery/door/airlock/almayer/medical/glass{
-	dir = 1
-	},
-/turf/open/floor/almayer/sterile_green,
-/area/adminlevel/ert_station/weyland_station/med)
 "bx" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -25,13 +23,6 @@
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/carpet,
 /area/space)
-"cg" = (
-/obj/structure/sign/safety/medical{
-	pixel_x = 8;
-	pixel_y = 32
-	},
-/turf/open/floor/corsat/squares,
-/area/adminlevel/ert_station/weyland_station/lounge)
 "cs" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/paper_bin/uscm{
@@ -69,10 +60,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
-"dm" = (
-/obj/structure/machinery/iv_drip,
-/turf/open/floor/almayer/sterile_green_side/north,
-/area/adminlevel/ert_station/weyland_station/med)
 "em" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	dir = 4;
@@ -80,21 +67,32 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
-"ev" = (
-/obj/structure/machinery/bioprinter{
-	stored_metal = 1000
-	},
-/turf/open/floor/almayer/sterile_green_side,
+"eL" = (
+/obj/structure/machinery/chem_master,
+/turf/open/floor/almayer/sterile_green_side/north,
 /area/adminlevel/ert_station/weyland_station/med)
 "fp" = (
 /obj/structure/bed/sofa/vert/grey,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
-"fF" = (
-/turf/closed/wall/r_wall/biodome,
+"fN" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer/sterile_green_corner,
 /area/adminlevel/ert_station/weyland_station/med)
-"fP" = (
-/turf/open/floor/almayer/sterile_green_side,
+"gh" = (
+/obj/structure/machinery/iv_drip,
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
+"gm" = (
+/obj/structure/machinery/line_nexter/med{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 2;
+	pixel_y = 0;
+	layer = 3.01
+	},
+/turf/open/floor/almayer/sterile_green_side/west,
 /area/adminlevel/ert_station/weyland_station/med)
 "gt" = (
 /obj/structure/bed/chair/comfy{
@@ -102,10 +100,6 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
-"gu" = (
-/obj/structure/window/framed/corsat,
-/turf/open/floor/plating,
-/area/adminlevel/ert_station/weyland_station/med)
 "gz" = (
 /turf/open/floor/corsat/arrow_west,
 /area/adminlevel/ert_station/weyland_station)
@@ -121,13 +115,15 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
-"ha" = (
-/turf/open/floor/almayer/sterile_green_side/east,
-/area/adminlevel/ert_station/weyland_station/med)
 "hj" = (
 /obj/structure/window/framed/corsat,
 /turf/open/floor/plating,
 /area/space)
+"hJ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/box/pillbottles,
+/turf/open/floor/almayer/sterile_green_side/east,
+/area/adminlevel/ert_station/weyland_station/med)
 "hT" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
@@ -139,8 +135,8 @@
 /obj/item/prop/magazine/boots/n055,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
-"iR" = (
-/turf/open/floor/almayer/sterile_green_corner/east,
+"iZ" = (
+/turf/closed/wall/r_wall/biodome,
 /area/adminlevel/ert_station/weyland_station/med)
 "jf" = (
 /obj/structure/surface/table/reinforced/black,
@@ -156,6 +152,13 @@
 	},
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station)
+"jW" = (
+/turf/open/floor/almayer/sterile_green_corner,
+/area/adminlevel/ert_station/weyland_station/med)
+"kh" = (
+/obj/structure/machinery/smartfridge/chemistry,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
 "kk" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/item/clipboard,
@@ -165,6 +168,27 @@
 /obj/item/folder/white,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"kw" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/defibrillator/upgraded,
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
+"kR" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/box/syringes{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/box/syringes,
+/turf/open/floor/almayer/sterile_green_side/north,
+/area/adminlevel/ert_station/weyland_station/med)
+"mZ" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood{
+	req_access = null
+	},
+/obj/structure/medical_supply_link,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
 "nr" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "\improper Laundry Room";
@@ -193,6 +217,10 @@
 /obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"nQ" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
 "nX" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/corsat/squares,
@@ -229,10 +257,13 @@
 /obj/structure/machinery/faxmachine/corporate,
 /turf/open/floor/wood/ship,
 /area/space)
-"pf" = (
+"pi" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/device/defibrillator/upgraded,
-/turf/open/floor/almayer/sterile_green_side,
+/obj/item/reagent_container/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	name = "Surgery Cleaner"
+	},
+/turf/open/floor/almayer/sterile_green_side/west,
 /area/adminlevel/ert_station/weyland_station/med)
 "pr" = (
 /obj/structure/pipes/vents/scrubber,
@@ -241,6 +272,11 @@
 "qa" = (
 /turf/closed/wall/r_wall/biodome,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"qg" = (
+/obj/structure/machinery/optable,
+/obj/item/tank/anesthetic,
+/turf/open/floor/almayer/sterile_green_side/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "qn" = (
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/floor/plating,
@@ -272,6 +308,15 @@
 /obj/item/device/flashlight/lamp/green,
 /turf/open/floor/carpet,
 /area/space)
+"tn" = (
+/obj/structure/machinery/cryo_cell,
+/obj/structure/pipes/standard/cap/hidden,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"tt" = (
+/obj/structure/pipes/standard/tank/oxygen,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
 "tz" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/prop/magazine/book/theartofwar,
@@ -289,19 +334,12 @@
 /obj/structure/machinery/vending/cigarette/colony,
 /turf/open/floor/wood/ship,
 /area/space)
-"uP" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -11
-	},
-/obj/structure/mirror{
-	pixel_x = -28
-	},
-/turf/open/floor/almayer/sterile_green_side/west,
+"tO" = (
+/obj/structure/machinery/medical_pod/bodyscanner,
+/turf/open/floor/almayer/sterile_green,
 /area/adminlevel/ert_station/weyland_station/med)
-"vc" = (
-/obj/structure/window/framed/corsat/indestructible,
-/turf/open/floor/plating,
+"uq" = (
+/turf/open/floor/almayer/sterile_green_side/southeast,
 /area/adminlevel/ert_station/weyland_station/med)
 "vu" = (
 /obj/structure/bed/sofa/vert/grey/bot,
@@ -312,11 +350,31 @@
 /obj/item/prop/magazine/book/bladerunner,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"vA" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
 "vD" = (
 /obj/item/tool/wet_sign,
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"vF" = (
+/obj/structure/sign/safety/medical{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"vY" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
 "wj" = (
 /obj/structure/machinery/vending/cigarette/colony,
 /turf/open/floor/corsat/squares,
@@ -324,34 +382,29 @@
 "wF" = (
 /turf/open/space/basic,
 /area/space)
-"xd" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/reagent_container/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
+"xa" = (
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	req_access = null
 	},
-/turf/open/floor/almayer/sterile_green_side/east,
+/obj/structure/medical_supply_link,
+/turf/open/floor/almayer/sterile_green,
 /area/adminlevel/ert_station/weyland_station/med)
 "xn" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
-"xo" = (
-/obj/structure/machinery/optable,
-/obj/item/tank/anesthetic,
-/turf/open/floor/almayer/sterile_green_side/north,
-/area/adminlevel/ert_station/weyland_station/med)
 "xD" = (
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"xN" = (
+/obj/structure/closet/wardrobe/chemistry_white,
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
 "xP" = (
 /obj/docking_port/stationary/emergency_response/idle_port2,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station)
-"yb" = (
-/turf/open/floor/almayer/sterile_green_side/north,
-/area/adminlevel/ert_station/weyland_station/med)
 "yG" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/prop/magazine/book/starshiptroopers,
@@ -365,6 +418,19 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
+"ze" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/closet/secure_closet/surgical{
+	pixel_y = 30
+	},
+/turf/open/floor/almayer/sterile_green_corner/north,
+/area/adminlevel/ert_station/weyland_station/med)
+"zv" = (
+/turf/open/floor/almayer/sterile_green_side/east,
+/area/adminlevel/ert_station/weyland_station/med)
+"zF" = (
+/turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
 "AE" = (
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
@@ -384,12 +450,36 @@
 /obj/item/prop/magazine/dirty,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"BV" = (
+/obj/structure/machinery/body_scanconsole,
+/obj/structure/machinery/autodoc_console{
+	dir = 1
+	},
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"BY" = (
+/turf/open/floor/almayer/sterile_green_corner/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "CW" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 8
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"Di" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/reagent_container/spray/cleaner,
+/obj/item/reagent_container/spray/cleaner,
+/obj/item/reagent_container/spray/cleaner,
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
 "DA" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -408,22 +498,31 @@
 /obj/item/prop/magazine/book/bladerunner,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"Ef" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -11
+	},
+/obj/structure/mirror{
+	pixel_x = -28
+	},
+/turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
 "Er" = (
 /turf/closed/wall/r_wall/biodome,
 /area/adminlevel/ert_station/weyland_station)
+"EU" = (
+/obj/structure/machinery/medical_pod/autodoc/unskilled{
+	dir = 1
+	},
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
 "EW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
 /turf/open/floor/corsat/white/north,
 /area/adminlevel/ert_station/weyland_station)
-"Fz" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/closet/secure_closet/surgical{
-	pixel_y = 30
-	},
-/turf/open/floor/almayer/sterile_green_corner/north,
-/area/adminlevel/ert_station/weyland_station/med)
 "FL" = (
 /turf/open/floor/corsat/squares,
 /area/space)
@@ -447,12 +546,24 @@
 "GQ" = (
 /turf/closed/wall/r_wall/biodome,
 /area/space)
+"Hc" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 5
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
 "Hx" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out"
 	},
 /turf/open/floor/corsat/whitecorner/north,
 /area/adminlevel/ert_station/weyland_station)
+"Im" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/mask/surgical,
+/turf/open/floor/almayer/sterile_green_corner/west,
+/area/adminlevel/ert_station/weyland_station/med)
 "Is" = (
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/corsat/squares,
@@ -461,17 +572,17 @@
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/carpet,
 /area/space)
-"IS" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 4;
-	name = "\improper Meeting Room"
-	},
-/turf/open/floor/almayer/dark_sterile,
-/area/adminlevel/ert_station/weyland_station/med)
 "Jm" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/wood/ship,
 /area/space)
+"Jt" = (
+/obj/structure/bed,
+/turf/open/floor/almayer/sterile_green_side/east,
+/area/adminlevel/ert_station/weyland_station/med)
+"Jy" = (
+/turf/open/floor/almayer/sterile_green_side/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "JF" = (
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
@@ -500,48 +611,64 @@
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/space/basic,
 /area/adminlevel/ert_station/weyland_station/lounge)
-"KQ" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
-	pixel_y = 25
-	},
-/turf/open/floor/almayer/dark_sterile,
+"Lb" = (
+/obj/structure/machinery/chem_dispenser,
+/obj/item/reagent_container/glass/beaker/bluespace,
+/turf/open/floor/almayer/sterile_green_side/north,
 /area/adminlevel/ert_station/weyland_station/med)
 "LR" = (
 /obj/structure/window/framed/corsat,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/lounge)
-"MP" = (
-/obj/structure/machinery/cm_vending/sorted/medical/no_access{
-	req_access = null
-	},
-/obj/structure/medical_supply_link,
-/turf/open/floor/almayer/sterile_green_side/north,
+"Mf" = (
+/obj/structure/bed/stool,
+/turf/open/floor/almayer/dark_sterile,
 /area/adminlevel/ert_station/weyland_station/med)
-"MU" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/clothing/gloves/latex,
-/obj/item/clothing/mask/surgical,
+"MF" = (
+/obj/structure/pipes/standard/manifold/visible,
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
+"NH" = (
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/pillbottles,
+/obj/structure/closet/secure_closet/chemical,
 /turf/open/floor/almayer/sterile_green_corner/west,
 /area/adminlevel/ert_station/weyland_station/med)
-"MX" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/closet/secure_closet/surgical{
-	pixel_y = 30
+"NZ" = (
+/obj/structure/closet/secure_closet/chemical{
+	req_access_txt = "100"
+	},
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
+"Ok" = (
+/obj/structure/machinery/bioprinter{
+	stored_metal = 1000
 	},
 /turf/open/floor/almayer/sterile_green_corner,
+/area/adminlevel/ert_station/weyland_station/med)
+"Oz" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/syringe_case{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/syringe_case,
+/obj/item/storage/syringe_case{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/turf/open/floor/almayer/dark_sterile,
 /area/adminlevel/ert_station/weyland_station/med)
 "OL" = (
 /obj/structure/bed/sofa/vert/grey/top,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
-"PD" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
-	pixel_y = 25
-	},
-/turf/open/floor/corsat/squares,
-/area/adminlevel/ert_station/weyland_station/lounge)
-"PI" = (
-/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+"OO" = (
+/turf/open/floor/almayer/sterile_green_side/southwest,
 /area/adminlevel/ert_station/weyland_station/med)
 "PU" = (
 /turf/closed/wall/r_wall/biodome/biodome_unmeltable,
@@ -573,14 +700,36 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"RU" = (
+/obj/structure/bed,
+/turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
+"Sk" = (
+/turf/open/floor/almayer/sterile_green_corner/east,
+/area/adminlevel/ert_station/weyland_station/med)
 "Sm" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/wood/ship,
 /area/space)
+"Sq" = (
+/obj/structure/window/framed/corsat,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station/med)
 "Sx" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"Sz" = (
+/obj/structure/window/framed/corsat/indestructible,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station/med)
+"Tb" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
+	req_access = null
+	},
+/obj/structure/medical_supply_link,
+/turf/open/floor/almayer/sterile_green_corner/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "Tf" = (
 /turf/closed/wall/r_wall/biodome/biodome_unmeltable,
 /area/space)
@@ -591,6 +740,11 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"Tm" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/turf/open/floor/almayer/sterile_green_side/east,
+/area/adminlevel/ert_station/weyland_station/med)
 "Tw" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/prop/magazine/dirty/torn/alt,
@@ -600,6 +754,19 @@
 /obj/structure/window/framed/corsat,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"UP" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	dir = 4;
+	name = "\improper Meeting Room"
+	},
+/turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
+"Ve" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_y = 25
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Vr" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/computer/skills{
@@ -612,15 +779,6 @@
 /obj/structure/machinery/vending/walkman,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
-"Wi" = (
-/obj/structure/machinery/cm_vending/sorted/medical/blood{
-	req_access = null
-	},
-/turf/open/floor/almayer/dark_sterile,
-/area/adminlevel/ert_station/weyland_station/med)
-"Wl" = (
-/turf/open/floor/almayer/dark_sterile,
-/area/adminlevel/ert_station/weyland_station/med)
 "WA" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/storage/fancy/cigar{
@@ -628,6 +786,15 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
+"Xa" = (
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
+"Xx" = (
+/obj/structure/barricade/handrail/medical{
+	dir = 4
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
 "XD" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/ashtray/glass,
@@ -637,12 +804,12 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
-"XY" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/reagent_container/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
-	},
+"XH" = (
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
+"Ye" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
 /turf/open/floor/almayer/sterile_green_side/west,
 /area/adminlevel/ert_station/weyland_station/med)
 "Yk" = (
@@ -667,6 +834,16 @@
 "Zq" = (
 /turf/open/floor/corsat/arrow_east,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"ZB" = (
+/obj/structure/pipes/unary/freezer,
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"ZC" = (
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/adminlevel/ert_station/weyland_station/med)
+"ZG" = (
+/turf/open/floor/almayer/sterile_green_corner/west,
+/area/adminlevel/ert_station/weyland_station/med)
 
 (1,1,1) = {"
 wF
@@ -3489,17 +3666,17 @@ wF
 wF
 wF
 wF
-PI
-vc
-vc
-PI
-PI
-PI
-fF
-gu
-gu
-gu
-fF
+ZC
+Sz
+Sz
+ZC
+ZC
+ZC
+iZ
+iZ
+iZ
+iZ
+iZ
 JF
 JF
 JF
@@ -3591,18 +3768,18 @@ wF
 wF
 wF
 wF
-PI
-Fz
-XY
-uP
-MU
-fF
-Wi
-Wl
-Wl
-Wl
-fF
-PD
+ZC
+ze
+pi
+Ef
+Im
+iZ
+Tb
+vA
+zF
+NH
+iZ
+Ve
 JF
 JF
 JF
@@ -3693,17 +3870,17 @@ wF
 wF
 wF
 wF
-PI
-xo
-Wl
-Wl
-pf
-fF
-KQ
-Wl
-Wl
-Wl
-fF
+ZC
+qg
+Xa
+Xa
+kw
+iZ
+Lb
+Mf
+Xa
+xN
+iZ
 JF
 Yv
 JF
@@ -3795,17 +3972,17 @@ wF
 wF
 wF
 wF
-vc
-dm
-Wl
-Wl
-ev
-fF
-MP
-Wl
-Wl
-Wl
-gu
+Sz
+aX
+Xa
+Xa
+XH
+iZ
+eL
+Xa
+Xa
+NZ
+iZ
 JF
 JF
 JF
@@ -3897,17 +4074,17 @@ wF
 wF
 wF
 wF
-PI
-xo
-Wl
-Wl
-fP
-bs
-yb
-Wl
-Wl
-Wl
-gu
+ZC
+Ok
+zv
+zv
+Sk
+iZ
+fN
+hJ
+zv
+Sk
+iZ
 JF
 JF
 xn
@@ -3997,19 +4174,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-MX
-xd
-ha
-iR
-fF
-yb
-Wl
-Wl
-Wl
-gu
+ZC
+ZC
+ZC
+iZ
+iZ
+nQ
+iZ
+iZ
+iZ
+kh
+nQ
+iZ
+iZ
 JF
 JF
 wj
@@ -4099,20 +4276,20 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-fF
-fF
-fF
-fF
-fF
-Wl
-Wl
-Wl
-Wl
-fF
-cg
+ZC
+BY
+zF
+zF
+zF
+zF
+zF
+Xx
+Xx
+gm
+zF
+ZG
+iZ
+vF
 JF
 Ea
 KP
@@ -4201,19 +4378,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-IS
+ZC
+Jy
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+OO
+UP
 JF
 JF
 JP
@@ -4303,19 +4480,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
+ZC
+Jy
+ZB
+Hc
+xa
+Xa
+mZ
+Xa
+Xa
+Xa
+Xa
+uq
+zv
 JF
 JF
 tz
@@ -4405,20 +4582,20 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-fF
-cg
+ZC
+Jy
+tn
+MF
+Xa
+Xa
+Xa
+Xa
+gh
+Xa
+gh
+XH
+iZ
+vF
 JF
 Sx
 PU
@@ -4507,19 +4684,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-vc
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-gu
+Sz
+Jy
+tn
+MF
+tO
+Xa
+tO
+Xa
+Tm
+Jt
+Tm
+XH
+Sq
 JF
 JF
 xn
@@ -4609,19 +4786,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-vc
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-gu
+Sz
+Jy
+tn
+MF
+BV
+Xa
+BV
+Xa
+kR
+Oz
+Di
+XH
+Sq
 JF
 JF
 JF
@@ -4711,19 +4888,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-vc
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-gu
+Sz
+Jy
+tt
+vY
+EU
+Xa
+EU
+Xa
+RU
+RU
+Ye
+XH
+Sq
 JF
 Is
 JF
@@ -4813,19 +4990,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-fF
+ZC
+Jy
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+gh
+XH
+iZ
 JF
 JF
 JF
@@ -4915,20 +5092,20 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-Wl
-fF
-PD
+ZC
+jW
+zv
+zv
+zv
+zv
+zv
+zv
+zv
+zv
+zv
+Sk
+iZ
+Ve
 JF
 JF
 JF
@@ -5017,19 +5194,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-PI
-gu
-gu
-gu
-fF
-fF
-fF
-gu
-gu
-gu
-fF
+ZC
+ZC
+ZC
+Sq
+Sq
+Sq
+iZ
+iZ
+iZ
+Sq
+Sq
+Sq
+iZ
 JF
 JF
 JF
