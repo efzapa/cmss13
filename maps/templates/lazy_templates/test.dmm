@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aE" = (
+/turf/closed/wall/almayer/research/containment/wall/corner,
+/area/adminlevel/ert_station/weyland_station/med)
 "aF" = (
 /obj/structure/closet/firecloset/full{
 	density = 0;
@@ -19,6 +22,22 @@
 	},
 /turf/open/floor/corsat/white/west,
 /area/adminlevel/ert_station/weyland_station)
+"bS" = (
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80;
+	pixel_y = 6
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/med)
 "bV" = (
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/carpet,
@@ -60,6 +79,19 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"dS" = (
+/turf/closed/wall/almayer/research/containment/wall/corner{
+	dir = 4
+	},
+/area/adminlevel/ert_station/weyland_station/med)
+"dZ" = (
+/obj/structure/closet/l3closet/general,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/med)
 "em" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	dir = 4;
@@ -78,6 +110,13 @@
 "fN" = (
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/sterile_green_corner,
+/area/adminlevel/ert_station/weyland_station/med)
+"fW" = (
+/obj/structure/window/framed/corsat,
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio"
+	},
+/turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/med)
 "gh" = (
 /obj/structure/machinery/iv_drip,
@@ -119,6 +158,20 @@
 /obj/structure/window/framed/corsat,
 /turf/open/floor/plating,
 /area/space)
+"hF" = (
+/obj/structure/machinery/door_display/research_cell{
+	dir = 4;
+	id = "Containment Cell WY";
+	name = "Control Panel";
+	pixel_x = -15;
+	req_access_txt = "200"
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/xeno_tag_case/full{
+	pixel_y = 8
+	},
+/turf/open/floor/corsat/green,
+/area/adminlevel/ert_station/weyland_station/med)
 "hJ" = (
 /obj/structure/surface/table/almayer,
 /obj/item/storage/box/pillbottles,
@@ -130,6 +183,17 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"im" = (
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/med)
 "iG" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/prop/magazine/boots/n055,
@@ -173,6 +237,13 @@
 /obj/item/device/defibrillator/upgraded,
 /turf/open/floor/almayer/sterile_green_side,
 /area/adminlevel/ert_station/weyland_station/med)
+"kM" = (
+/obj/structure/ladder{
+	height = 1;
+	id = "royce-rnd1"
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/adminlevel/ert_station/weyland_station/med)
 "kR" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/box/syringes{
@@ -181,6 +252,27 @@
 	},
 /obj/item/storage/box/syringes,
 /turf/open/floor/almayer/sterile_green_side/north,
+/area/adminlevel/ert_station/weyland_station/med)
+"lo" = (
+/turf/closed/wall/almayer/research/containment/wall/east,
+/area/adminlevel/ert_station/weyland_station/med)
+"lw" = (
+/obj/structure/closet/secure_closet/medical2,
+/turf/open/floor/almayer/sterile_green_corner/east,
+/area/adminlevel/ert_station/weyland_station/med)
+"lA" = (
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
 "mZ" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood{
@@ -257,11 +349,23 @@
 /obj/structure/machinery/faxmachine/corporate,
 /turf/open/floor/wood/ship,
 /area/space)
+"pc" = (
+/turf/open/floor/corsat/green,
+/area/adminlevel/ert_station/weyland_station/med)
 "pi" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/reagent_container/spray/cleaner{
 	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
+	name = "Surgery Cleaner";
+	pixel_y = 2;
+	pixel_x = 4
+	},
+/obj/structure/machinery/door_control{
+	id = "WY_center_medbay_or";
+	name = "Center Medbay Operation Room Shutters";
+	pixel_x = -5;
+	pixel_y = 9;
+	req_access_txt = "1"
 	},
 /turf/open/floor/almayer/sterile_green_side/west,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -303,15 +407,43 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
+"qY" = (
+/obj/structure/ladder{
+	height = 1;
+	id = "royce-rnd2"
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/adminlevel/ert_station/weyland_station/med)
 "rE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/device/flashlight/lamp/green,
 /turf/open/floor/carpet,
 /area/space)
+"rN" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/monkeycubes{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/storage/box/monkeycubes{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/restraint/adjustable/cable/red{
+	pixel_x = 5;
+	pixel_y = -4
+	},
+/turf/open/floor/corsat/green/southwest,
+/area/adminlevel/ert_station/weyland_station/med)
 "tn" = (
 /obj/structure/machinery/cryo_cell,
 /obj/structure/pipes/standard/cap/hidden,
 /turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"to" = (
+/turf/closed/wall/almayer/research/containment/wall/corner{
+	dir = 8
+	},
 /area/adminlevel/ert_station/weyland_station/med)
 "tt" = (
 /obj/structure/pipes/standard/tank/oxygen,
@@ -340,6 +472,17 @@
 /area/adminlevel/ert_station/weyland_station/med)
 "uq" = (
 /turf/open/floor/almayer/sterile_green_side/southeast,
+/area/adminlevel/ert_station/weyland_station/med)
+"uR" = (
+/obj/structure/closet/l3closet/general,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
 "vu" = (
 /obj/structure/bed/sofa/vert/grey/bot,
@@ -393,6 +536,14 @@
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"xy" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "containmentlockdown_S";
+	name = "\improper Containment Lockdown"
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
 "xD" = (
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/floor/plating,
@@ -428,8 +579,14 @@
 "zv" = (
 /turf/open/floor/almayer/sterile_green_side/east,
 /area/adminlevel/ert_station/weyland_station/med)
+"zA" = (
+/turf/open/floor/almayer/research/containment/entrance,
+/area/adminlevel/ert_station/weyland_station/med)
 "zF" = (
 /turf/open/floor/almayer/sterile_green_side/west,
+/area/adminlevel/ert_station/weyland_station/med)
+"zU" = (
+/turf/open/floor/almayer/research/containment/floor2,
 /area/adminlevel/ert_station/weyland_station/med)
 "AE" = (
 /turf/open/floor/corsat/squares,
@@ -460,6 +617,15 @@
 "BY" = (
 /turf/open/floor/almayer/sterile_green_corner/north,
 /area/adminlevel/ert_station/weyland_station/med)
+"Cc" = (
+/obj/structure/window/framed/corsat/research,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	dir = 4;
+	id = "WY_center_medbay_or";
+	name = "\improper Central Medbay Operation Room Shutters"
+	},
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station/med)
 "CW" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 8
@@ -479,6 +645,15 @@
 /obj/item/reagent_container/spray/cleaner,
 /obj/item/reagent_container/spray/cleaner,
 /turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
+"Dv" = (
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio"
+	},
+/turf/closed/wall/almayer/research/containment/wall/purple{
+	dir = 8;
+	icon_state = "containment_window_h"
+	},
 /area/adminlevel/ert_station/weyland_station/med)
 "DA" = (
 /obj/structure/bed/chair/comfy{
@@ -511,6 +686,9 @@
 "Er" = (
 /turf/closed/wall/r_wall/biodome,
 /area/adminlevel/ert_station/weyland_station)
+"EG" = (
+/turf/closed/wall/almayer/research/containment/wall/south,
+/area/adminlevel/ert_station/weyland_station/med)
 "EU" = (
 /obj/structure/machinery/medical_pod/autodoc/unskilled{
 	dir = 1
@@ -523,9 +701,17 @@
 	},
 /turf/open/floor/corsat/white/north,
 /area/adminlevel/ert_station/weyland_station)
+"Fk" = (
+/obj/structure/bed/roller,
+/turf/open/floor/almayer/sterile_green_side,
+/area/adminlevel/ert_station/weyland_station/med)
 "FL" = (
 /turf/open/floor/corsat/squares,
 /area/space)
+"Ge" = (
+/obj/structure/machinery/light/double,
+/turf/open/floor/almayer/research/containment/floor2/north,
+/area/adminlevel/ert_station/weyland_station/med)
 "Gf" = (
 /obj/structure/machinery/vending/snack,
 /turf/open/floor/corsat/squares,
@@ -558,6 +744,25 @@
 	},
 /turf/open/floor/corsat/whitecorner/north,
 /area/adminlevel/ert_station/weyland_station)
+"Hz" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass,
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio";
+	dir = 4
+	},
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"Ii" = (
+/obj/structure/machinery/flasher{
+	alpha = 1;
+	id = "Containment Cell WY";
+	layer = 2.1;
+	name = "Mounted Flash";
+	pixel_x = -15;
+	pixel_y = 30
+	},
+/turf/open/floor/almayer/research/containment/corner_var1/containment_corner_variant_2,
+/area/adminlevel/ert_station/weyland_station/med)
 "Im" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/clothing/gloves/latex,
@@ -568,6 +773,11 @@
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"IH" = (
+/turf/closed/wall/almayer/research/containment/wall/corner{
+	dir = 1
+	},
+/area/adminlevel/ert_station/weyland_station/med)
 "IL" = (
 /obj/structure/bed/chair/comfy,
 /turf/open/floor/carpet,
@@ -616,10 +826,22 @@
 /obj/item/reagent_container/glass/beaker/bluespace,
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/adminlevel/ert_station/weyland_station/med)
+"LJ" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 1;
+	id = "containmentlockdown_S";
+	name = "\improper Containment Lockdown"
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
 "LR" = (
 /obj/structure/window/framed/corsat,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"Me" = (
+/obj/structure/window/framed/corsat/indestructible/research,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station/med)
 "Mf" = (
 /obj/structure/bed/stool,
 /turf/open/floor/almayer/dark_sterile,
@@ -627,6 +849,16 @@
 "MF" = (
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
+"MO" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "WY Bio";
+	name = "BIOHAZARD LOCKDOWN";
+	pixel_y = 3;
+	pixel_x = 1
+	},
+/turf/open/floor/corsat/green,
 /area/adminlevel/ert_station/weyland_station/med)
 "NH" = (
 /obj/item/storage/box/pillbottles,
@@ -670,6 +902,21 @@
 "OO" = (
 /turf/open/floor/almayer/sterile_green_side/southwest,
 /area/adminlevel/ert_station/weyland_station/med)
+"PD" = (
+/obj/structure/machinery/door/airlock/almayer/research/reinforced{
+	closeOtherId = "containment_s";
+	dir = 8;
+	name = "\improper Containment Airlock"
+	},
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio";
+	dir = 4
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/adminlevel/ert_station/weyland_station/med)
+"PP" = (
+/turf/open/floor/almayer/research/containment/corner/east,
+/area/adminlevel/ert_station/weyland_station/med)
 "PU" = (
 /turf/closed/wall/r_wall/biodome/biodome_unmeltable,
 /area/adminlevel/ert_station/weyland_station/lounge)
@@ -680,6 +927,49 @@
 	},
 /turf/open/floor/corsat/whitecorner/west,
 /area/adminlevel/ert_station/weyland_station)
+"Qy" = (
+/turf/open/floor/almayer/research/containment/floor2/north,
+/area/adminlevel/ert_station/weyland_station/med)
+"QN" = (
+/obj/structure/machinery/door/airlock/almayer/research/reinforced{
+	closeOtherId = "containment_s";
+	dir = 8;
+	name = "\improper Containment Airlock"
+	},
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio";
+	dir = 4
+	},
+/turf/open/floor/almayer/sterile_green,
+/area/adminlevel/ert_station/weyland_station/med)
+"Rc" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80
+	},
+/obj/structure/closet/l3closet/virology,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/med)
+"Rg" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/paper_bin/wy{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/tool/pen{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/item/device/camera{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/turf/open/floor/corsat/green,
+/area/adminlevel/ert_station/weyland_station/med)
 "Rw" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/pen/clicky{
@@ -700,6 +990,9 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"RQ" = (
+/turf/open/floor/almayer/research/containment/corner2,
+/area/adminlevel/ert_station/weyland_station/med)
 "RU" = (
 /obj/structure/bed,
 /turf/open/floor/almayer/sterile_green_side/west,
@@ -750,6 +1043,9 @@
 /obj/item/prop/magazine/dirty/torn/alt,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"TF" = (
+/turf/open/floor/almayer/research/containment/floor2/west,
+/area/adminlevel/ert_station/weyland_station/med)
 "Ub" = (
 /obj/structure/window/framed/corsat,
 /turf/open/floor/corsat/squares,
@@ -779,6 +1075,21 @@
 /obj/structure/machinery/vending/walkman,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"VQ" = (
+/turf/open/floor/almayer/research/containment/corner_var1/east,
+/area/adminlevel/ert_station/weyland_station/med)
+"VY" = (
+/turf/closed/wall/almayer/research/containment/wall/west,
+/area/adminlevel/ert_station/weyland_station/med)
+"Wx" = (
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio"
+	},
+/turf/closed/wall/almayer/research/containment/wall/purple{
+	dir = 4;
+	icon_state = "containment_window_h"
+	},
+/area/adminlevel/ert_station/weyland_station/med)
 "WA" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/storage/fancy/cigar{
@@ -843,6 +1154,25 @@
 /area/adminlevel/ert_station/weyland_station/med)
 "ZG" = (
 /turf/open/floor/almayer/sterile_green_corner/west,
+/area/adminlevel/ert_station/weyland_station/med)
+"ZH" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment{
+	id = "Containment Cell WY";
+	name = "\improper Containment Cell"
+	},
+/obj/structure/machinery/door/airlock/almayer/research/glass/reinforced{
+	dir = 1;
+	id = "Containment Cell WY";
+	locked = 1;
+	name = "\improper Containment Cell";
+	req_access = null;
+	req_one_access = null;
+	req_access_txt = "200"
+	},
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio"
+	},
+/turf/open/floor/almayer/test_floor4,
 /area/adminlevel/ert_station/weyland_station/med)
 
 (1,1,1) = {"
@@ -949,21 +1279,21 @@ wF
 "}
 (2,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
 wF
 wF
 wF
@@ -1051,21 +1381,21 @@ wF
 "}
 (3,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+BY
+zF
+ZG
+ZC
+Xa
+Xa
+Xa
+hF
+IH
+VY
+VY
+VY
+to
+ZC
 wF
 wF
 wF
@@ -1153,21 +1483,21 @@ wF
 "}
 (4,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+Jy
+kM
+XH
+Me
+Xa
+Xa
+Xa
+rN
+Dv
+Ii
+TF
+PP
+EG
+ZC
 wF
 wF
 wF
@@ -1255,21 +1585,21 @@ wF
 "}
 (5,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+Jy
+qY
+XH
+Me
+Xa
+Xa
+Xa
+pc
+Wx
+Qy
+zU
+Qy
+EG
+ZC
 wF
 wF
 wF
@@ -1357,21 +1687,21 @@ wF
 "}
 (6,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+jW
+zv
+Sk
+ZC
+Xa
+Xa
+Xa
+pc
+ZH
+zA
+zU
+Ge
+EG
+ZC
 wF
 wF
 wF
@@ -1459,21 +1789,21 @@ wF
 "}
 (7,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+ZC
+QN
+ZC
+ZC
+Xa
+Xa
+Xa
+Rg
+Dv
+Qy
+zU
+Qy
+EG
+ZC
 wF
 wF
 wF
@@ -1561,21 +1891,21 @@ wF
 "}
 (8,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+lA
+Xa
+uR
+ZC
+Xa
+Xa
+Xa
+MO
+Wx
+VQ
+TF
+RQ
+EG
+ZC
 wF
 wF
 wF
@@ -1663,21 +1993,21 @@ wF
 "}
 (9,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+bS
+Xa
+Rc
+ZC
+Xa
+Xa
+Xa
+pc
+dS
+lo
+lo
+lo
+aE
+ZC
 wF
 wF
 wF
@@ -1765,21 +2095,21 @@ wF
 "}
 (10,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+im
+Xa
+dZ
+ZC
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+ZC
 wF
 wF
 wF
@@ -1867,21 +2197,21 @@ wF
 "}
 (11,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+xy
+xy
+xy
+ZC
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+ZC
 wF
 wF
 wF
@@ -1969,21 +2299,21 @@ wF
 "}
 (12,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+Me
+PD
+Me
+ZC
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+ZC
 wF
 wF
 wF
@@ -2071,21 +2401,21 @@ wF
 "}
 (13,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+Xa
+Xa
+Xa
+LJ
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+ZC
 wF
 wF
 wF
@@ -2173,21 +2503,21 @@ wF
 "}
 (14,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+Xa
+Xa
+Xa
+LJ
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+ZC
 wF
 wF
 wF
@@ -2275,21 +2605,21 @@ wF
 "}
 (15,1,1) = {"
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
+ZC
 wF
 wF
 wF
@@ -3662,10 +3992,10 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
+ZC
+ZC
+ZC
+ZC
 ZC
 Sz
 Sz
@@ -3764,10 +4094,10 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
+ZC
+BY
+zF
+ZG
 ZC
 ze
 pi
@@ -3866,10 +4196,10 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
+ZC
+Jy
+kM
+XH
 ZC
 qg
 Xa
@@ -3968,15 +4298,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-Sz
+ZC
+Jy
+qY
+XH
+fW
 aX
 Xa
 Xa
-XH
+Fk
 iZ
 eL
 Xa
@@ -4070,15 +4400,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
+ZC
+jW
+zv
+Sk
 ZC
 Ok
 zv
 zv
-Sk
+lw
 iZ
 fN
 hJ
@@ -4172,15 +4502,15 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 ZC
+Hz
 ZC
-iZ
-iZ
+ZC
+Cc
+Cc
 nQ
-iZ
+Cc
 iZ
 iZ
 kh
@@ -4274,10 +4604,10 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 BY
+zF
+zF
 zF
 zF
 zF
@@ -4376,10 +4706,10 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 Jy
+Xa
+Xa
 Xa
 Xa
 Xa
@@ -4478,15 +4808,15 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 Jy
+Xa
 ZB
 Hc
-xa
 Xa
-mZ
+Xa
+Xa
+Xa
 Xa
 Xa
 Xa
@@ -4580,19 +4910,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-ZC
+Sz
 Jy
+Xa
 tn
 MF
 Xa
-Xa
-Xa
-Xa
 gh
 Xa
 gh
+Xa
+xa
+Xa
+mZ
 XH
 iZ
 vF
@@ -4682,19 +5012,19 @@ wF
 wF
 wF
 wF
-wF
-wF
 Sz
 Jy
+Xa
 tn
 MF
-tO
-Xa
-tO
 Xa
 Tm
 Jt
 Tm
+Xa
+Xa
+Xa
+Xa
 XH
 Sq
 JF
@@ -4784,19 +5114,19 @@ wF
 wF
 wF
 wF
-wF
-wF
 Sz
 Jy
+Xa
 tn
 MF
-BV
-Xa
-BV
 Xa
 kR
 Oz
 Di
+Xa
+tO
+Xa
+tO
 XH
 Sq
 JF
@@ -4886,19 +5216,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-Sz
+ZC
 Jy
+Xa
 tt
 vY
-EU
-Xa
-EU
 Xa
 RU
 RU
 Ye
+Xa
+BV
+Xa
+BV
 XH
 Sq
 JF
@@ -4988,8 +5318,6 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 Jy
 Xa
@@ -4998,9 +5326,11 @@ Xa
 Xa
 Xa
 Xa
-Xa
-Xa
 gh
+Xa
+EU
+Xa
+EU
 XH
 iZ
 JF
@@ -5090,10 +5420,10 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
 jW
+zv
+zv
 zv
 zv
 zv
@@ -5192,11 +5522,11 @@ wF
 wF
 wF
 wF
-wF
-wF
 ZC
-ZC
-ZC
+Sq
+iZ
+iZ
+iZ
 Sq
 Sq
 Sq
