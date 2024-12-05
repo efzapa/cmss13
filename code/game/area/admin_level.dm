@@ -122,31 +122,31 @@
 	icon_state = "white"
 
 /area/adminlevel/ert_station/weyland_station
-	name = "USS Royce"
+	name = "USCSS Royce"
 	icon_state = "purple"
 
 /area/adminlevel/ert_station/weyland_station/med
-	name = "USS Royce - Medical"
+	name = "USCSS Royce - Medical"
 	icon_state = "medbay"
 
 /area/adminlevel/ert_station/weyland_station/engi
-	name = "USS Royce - Engineering"
+	name = "USCSS Royce - Engineering"
 	icon_state = "engine"
 
 /area/adminlevel/ert_station/weyland_station/sec
-	name = "USS Royce - Security"
+	name = "USCSS Royce - Security"
 	icon_state = "security"
 
 /area/adminlevel/ert_station/weyland_station/lounge
-	name = "USS Royce - Lounge"
+	name = "USCSS Royce - Lounge"
 	icon_state = "crew_quarters"
 
 /area/adminlevel/ert_station/weyland_station/office
-	name = "USS Royce - Offices"
+	name = "USCSS Royce - Offices"
 	icon_state = "orange" //placeholder, replace
 
 /area/adminlevel/ert_station/weyland_station/rnd
-	name = "USS Royce - Research"
+	name = "USCSS Royce - Research"
 	icon_state = "research"
 
 /area/adminlevel/ert_station/uscm_station
