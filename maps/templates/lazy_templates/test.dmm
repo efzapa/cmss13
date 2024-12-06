@@ -22,6 +22,16 @@
 	},
 /turf/open/floor/corsat/white/west,
 /area/adminlevel/ert_station/weyland_station)
+"bD" = (
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9
+	},
+/obj/structure/surface/table/reinforced/almayer_B{
+	climbable = 0
+	},
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "bS" = (
 /obj/structure/machinery/shower{
 	pixel_y = 16
@@ -42,6 +52,10 @@
 /obj/structure/surface/table/reinforced/black,
 /turf/open/floor/carpet,
 /area/space)
+"cb" = (
+/obj/structure/closet/secure_closet/fridge/meat/stock,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "cs" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/paper_bin/uscm{
@@ -79,6 +93,12 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"cU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "dS" = (
 /turf/closed/wall/almayer/research/containment/wall/corner{
 	dir = 4
@@ -99,6 +119,10 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"eq" = (
+/obj/structure/closet/secure_closet/fridge/organic/stock,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "eL" = (
 /obj/structure/machinery/chem_master,
 /turf/open/floor/almayer/sterile_green_side/north,
@@ -107,6 +131,20 @@
 /obj/structure/bed/sofa/vert/grey,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"ft" = (
+/obj/structure/window/framed/corsat/indestructible/research,
+/obj/structure/machinery/door/poddoor/almayer/blended/white/open{
+	id = "WY Bio";
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station/med)
+"fL" = (
+/obj/structure/bed/chair/comfy{
+	dir = 2
+	},
+/turf/open/floor/carpet,
+/area/space)
 "fN" = (
 /obj/structure/surface/table/almayer,
 /turf/open/floor/almayer/sterile_green_corner,
@@ -158,6 +196,13 @@
 /obj/structure/window/framed/corsat,
 /turf/open/floor/plating,
 /area/space)
+"hB" = (
+/obj/structure/ladder{
+	height = 1;
+	id = "royce_rnd1"
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/adminlevel/ert_station/weyland_station/med)
 "hF" = (
 /obj/structure/machinery/door_display/research_cell{
 	dir = 4;
@@ -194,6 +239,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
+"it" = (
+/obj/structure/ladder{
+	height = 1;
+	id = "royce_rnd2"
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/adminlevel/ert_station/weyland_station/med)
 "iG" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/prop/magazine/boots/n055,
@@ -216,6 +268,26 @@
 	},
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station)
+"jK" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/sign/poster{
+	desc = "Eat an EAT bar! ...Aren't they called MEAT bars?";
+	icon_state = "poster7";
+	name = "EAT - poster";
+	pixel_y = 30
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "royce_kitchen";
+	name = "\improper Kitchen Shutters"
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "jW" = (
 /turf/open/floor/almayer/sterile_green_corner,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -240,6 +312,10 @@
 "kM" = (
 /obj/structure/ladder{
 	height = 1;
+	id = "royce_ssssssssrnd1"
+	},
+/obj/structure/ladder{
+	height = 1;
 	id = "royce-rnd1"
 	},
 /turf/open/floor/almayer/test_floor4,
@@ -253,6 +329,16 @@
 /obj/item/storage/box/syringes,
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/adminlevel/ert_station/weyland_station/med)
+"kT" = (
+/obj/structure/machinery/line_nexter{
+	id = "line2";
+	pixel_x = -2
+	},
+/obj/structure/barricade/handrail{
+	layer = 3.01
+	},
+/turf/open/floor/corsat/cargo,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "lo" = (
 /turf/closed/wall/almayer/research/containment/wall/east,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -281,6 +367,9 @@
 /obj/structure/medical_supply_link,
 /turf/open/floor/almayer/sterile_green,
 /area/adminlevel/ert_station/weyland_station/med)
+"nl" = (
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "nr" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "\improper Laundry Room";
@@ -397,6 +486,11 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"qD" = (
+/obj/structure/kitchenspike,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "qG" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/corsat/squares,
@@ -410,10 +504,25 @@
 "qY" = (
 /obj/structure/ladder{
 	height = 1;
-	id = "royce-rnd2"
+	id = s
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/adminlevel/ert_station/weyland_station/med)
+"qZ" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "royce_kitchen";
+	name = "\improper Kitchen Shutters"
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "rE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/device/flashlight/lamp/green,
@@ -435,6 +544,10 @@
 	},
 /turf/open/floor/corsat/green/southwest,
 /area/adminlevel/ert_station/weyland_station/med)
+"rS" = (
+/obj/structure/machinery/vending/ingredients,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "tn" = (
 /obj/structure/machinery/cryo_cell,
 /obj/structure/pipes/standard/cap/hidden,
@@ -473,6 +586,14 @@
 "uq" = (
 /turf/open/floor/almayer/sterile_green_side/southeast,
 /area/adminlevel/ert_station/weyland_station/med)
+"ur" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/USCMtray{
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "uR" = (
 /obj/structure/closet/l3closet/general,
 /obj/structure/machinery/light{
@@ -484,6 +605,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
+"vb" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "\improper Laundry Room";
+	req_access_txt = "200"
+	},
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "vu" = (
 /obj/structure/bed/sofa/vert/grey/bot,
 /turf/open/floor/corsat/squares,
@@ -510,6 +638,10 @@
 	pixel_x = 8;
 	pixel_y = 32
 	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"vV" = (
+/obj/structure/surface/table/reinforced/black,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "vY" = (
@@ -588,6 +720,14 @@
 "zU" = (
 /turf/open/floor/almayer/research/containment/floor2,
 /area/adminlevel/ert_station/weyland_station/med)
+"Aj" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/USCMtray{
+	pixel_x = -12;
+	pixel_y = 16
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "AE" = (
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
@@ -626,6 +766,10 @@
 	},
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/med)
+"Cs" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "CW" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 8
@@ -701,10 +845,21 @@
 	},
 /turf/open/floor/corsat/white/north,
 /area/adminlevel/ert_station/weyland_station)
+"Fe" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/USCMtray{
+	pixel_x = 5
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Fk" = (
 /obj/structure/bed/roller,
 /turf/open/floor/almayer/sterile_green_side,
 /area/adminlevel/ert_station/weyland_station/med)
+"Fo" = (
+/obj/structure/closet/secure_closet/fridge/groceries/stock,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "FL" = (
 /turf/open/floor/corsat/squares,
 /area/space)
@@ -801,6 +956,10 @@
 /obj/item/prop/magazine/boots/n055,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
+"Kc" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Kd" = (
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/floor/plating,
@@ -818,14 +977,29 @@
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "KP" = (
-/obj/structure/window/framed/corsat/indestructible,
-/turf/open/space/basic,
+/obj/structure/barricade/handrail{
+	layer = 3.01;
+	dir = 8
+	},
+/turf/open/floor/corsat/arrow_south,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "Lb" = (
 /obj/structure/machinery/chem_dispenser,
 /obj/item/reagent_container/glass/beaker/bluespace,
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/adminlevel/ert_station/weyland_station/med)
+"LE" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/condiment/hotsauce/franks{
+	pixel_y = 11;
+	pixel_x = -6
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"LG" = (
+/obj/structure/closet/secure_closet/fridge/fish/stock,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "LJ" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 1;
@@ -846,6 +1020,14 @@
 /obj/structure/bed/stool,
 /turf/open/floor/almayer/dark_sterile,
 /area/adminlevel/ert_station/weyland_station/med)
+"MA" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "MF" = (
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/almayer/dark_sterile,
@@ -940,7 +1122,7 @@
 	id = "WY Bio";
 	dir = 4
 	},
-/turf/open/floor/almayer/sterile_green,
+/turf/closed/wall/r_wall/biodome,
 /area/adminlevel/ert_station/weyland_station/med)
 "Rc" = (
 /obj/structure/window/reinforced{
@@ -990,6 +1172,11 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"RB" = (
+/obj/structure/kitchenspike,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "RQ" = (
 /turf/open/floor/almayer/research/containment/corner2,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -1016,6 +1203,15 @@
 /obj/structure/window/framed/corsat/indestructible,
 /turf/open/floor/plating,
 /area/adminlevel/ert_station/weyland_station/med)
+"SF" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/door_control{
+	id = "royce_kitchen";
+	name = "Kitchen Shutters";
+	pixel_x = -5
+	},
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Tb" = (
 /obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
 	req_access = null
@@ -1046,10 +1242,41 @@
 "TF" = (
 /turf/open/floor/almayer/research/containment/floor2/west,
 /area/adminlevel/ert_station/weyland_station/med)
+"TY" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Ub" = (
 /obj/structure/window/framed/corsat,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"Ue" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	climbable = 0
+	},
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"Ug" = (
+/turf/open/floor/corsat/arrow_west,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"UL" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/box/cups,
+/obj/item/tool/kitchen/utensil/spoon,
+/obj/item/tool/kitchen/utensil/spoon,
+/obj/item/tool/kitchen/utensil/spoon,
+/obj/item/tool/kitchen/utensil/fork,
+/obj/item/tool/kitchen/utensil/fork,
+/obj/item/tool/kitchen/utensil/fork,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "royce_kitchen";
+	name = "\improper Kitchen Shutters"
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "UP" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	dir = 4;
@@ -1097,6 +1324,9 @@
 	},
 /turf/open/floor/carpet,
 /area/space)
+"WE" = (
+/turf/open/floor/corsat/cargo,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Xa" = (
 /turf/open/floor/almayer/dark_sterile,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -1118,6 +1348,21 @@
 "XH" = (
 /turf/open/floor/almayer/sterile_green_side,
 /area/adminlevel/ert_station/weyland_station/med)
+"XO" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_y = 4;
+	pixel_x = 2
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_y = 7;
+	pixel_x = -3
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"XP" = (
+/turf/closed/wall/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "Ye" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -1385,7 +1630,7 @@ ZC
 BY
 zF
 ZG
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -1485,9 +1730,9 @@ wF
 wF
 ZC
 Jy
-kM
+hB
 XH
-Me
+ft
 Xa
 Xa
 Xa
@@ -1587,9 +1832,9 @@ wF
 wF
 ZC
 Jy
-qY
+it
 XH
-Me
+ft
 Xa
 Xa
 Xa
@@ -1691,7 +1936,7 @@ ZC
 jW
 zv
 Sk
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -1790,10 +2035,10 @@ wF
 (7,1,1) = {"
 wF
 ZC
-ZC
+iZ
 QN
-ZC
-ZC
+iZ
+iZ
 Xa
 Xa
 Xa
@@ -1895,7 +2140,7 @@ ZC
 lA
 Xa
 uR
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -1997,7 +2242,7 @@ ZC
 bS
 Xa
 Rc
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -2099,7 +2344,7 @@ ZC
 im
 Xa
 dZ
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -2201,7 +2446,7 @@ ZC
 xy
 xy
 xy
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -2303,7 +2548,7 @@ ZC
 Me
 PD
 Me
-ZC
+iZ
 Xa
 Xa
 Xa
@@ -4027,8 +4272,8 @@ xD
 xD
 xD
 PU
-wF
-wF
+PU
+PU
 wF
 "}
 (29,1,1) = {"
@@ -4098,7 +4343,7 @@ ZC
 BY
 zF
 ZG
-ZC
+iZ
 ze
 pi
 Ef
@@ -4128,9 +4373,9 @@ JF
 JF
 JF
 JF
+JF
+JF
 PU
-wF
-wF
 wF
 "}
 (30,1,1) = {"
@@ -4200,7 +4445,7 @@ ZC
 Jy
 kM
 XH
-ZC
+iZ
 qg
 Xa
 Xa
@@ -4214,25 +4459,25 @@ iZ
 JF
 Yv
 JF
-KP
-KP
-KP
+xD
+xD
+xD
 JF
 Is
 JF
-qa
+LR
+JF
+JF
+TY
+TY
 JF
 JF
 JF
-JF
-JF
-JF
-JF
+TY
+TY
 JF
 JF
 PU
-wF
-wF
 wF
 "}
 (31,1,1) = {"
@@ -4324,17 +4569,17 @@ JF
 JF
 LR
 JF
+Gr
+Fe
+vV
+DA
 JF
-JF
-JF
-JF
-JF
-JF
-JF
+Gr
+XO
+Fe
+DA
 JF
 xD
-wF
-wF
 wF
 "}
 (32,1,1) = {"
@@ -4404,7 +4649,7 @@ ZC
 jW
 zv
 Sk
-ZC
+iZ
 Ok
 zv
 zv
@@ -4426,17 +4671,17 @@ JF
 JF
 LR
 JF
+Gr
+MA
+vV
+DA
 JF
-JF
-JF
-JF
-JF
-JF
-JF
+Gr
+ur
+vV
+DA
 JF
 xD
-wF
-wF
 wF
 "}
 (33,1,1) = {"
@@ -4503,10 +4748,10 @@ wF
 wF
 wF
 ZC
-ZC
+iZ
 Hz
-ZC
-ZC
+iZ
+iZ
 Cc
 Cc
 nQ
@@ -4526,19 +4771,19 @@ PU
 Gf
 JF
 JF
-LR
+qa
 JF
+Gr
+XO
+Aj
+DA
 JF
-JF
-JF
-JF
-JF
-JF
-JF
+Gr
+vV
+LE
+DA
 JF
 xD
-wF
-wF
 wF
 "}
 (34,1,1) = {"
@@ -4622,25 +4867,25 @@ iZ
 vF
 JF
 Ea
-KP
+xD
 wF
-KP
+xD
 qG
 JF
 JF
 qa
 JF
 JF
+cU
+cU
 JF
 JF
 JF
+cU
+cU
 JF
 JF
-JF
-JF
-PU
-wF
-wF
+xD
 wF
 "}
 (35,1,1) = {"
@@ -4724,9 +4969,9 @@ UP
 JF
 JF
 JP
-KP
+xD
 wF
-KP
+xD
 Tw
 JF
 JF
@@ -4740,9 +4985,9 @@ JF
 JF
 JF
 JF
-PU
-wF
-wF
+JF
+JF
+xD
 wF
 "}
 (36,1,1) = {"
@@ -4826,9 +5071,9 @@ zv
 JF
 JF
 tz
-KP
+xD
 wF
-KP
+xD
 qG
 JF
 JF
@@ -4842,9 +5087,9 @@ JF
 JF
 JF
 JF
+JF
+JF
 PU
-wF
-wF
 wF
 "}
 (37,1,1) = {"
@@ -4939,14 +5184,14 @@ JF
 JF
 JF
 JF
-JF
-JF
+KP
+KP
+KP
+kT
 JF
 JF
 JF
 PU
-wF
-wF
 wF
 "}
 (38,1,1) = {"
@@ -5036,19 +5281,19 @@ PU
 xn
 JF
 JF
-LR
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-xD
-wF
-wF
+qa
+qa
+qa
+qa
+qa
+qa
+jK
+qZ
+UL
+XP
+vb
+qa
+PU
 wF
 "}
 (39,1,1) = {"
@@ -5139,18 +5384,18 @@ JF
 JF
 JF
 LR
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-xD
-wF
-wF
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+PU
 wF
 "}
 (40,1,1) = {"
@@ -5234,25 +5479,25 @@ Sq
 JF
 Is
 JF
-KP
-KP
-KP
+xD
+xD
+xD
 JF
 Yv
-JF
-LR
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
+WE
+Ue
+nl
+nl
+Cs
+Cs
+Cs
+nl
+Cs
+Cs
+SF
+nl
+eq
 xD
-wF
-wF
 wF
 "}
 (41,1,1) = {"
@@ -5341,20 +5586,20 @@ qq
 DA
 JF
 JF
-JF
-qa
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-PU
-wF
-wF
+Ug
+LR
+Kc
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+nl
+qD
+xD
 wF
 "}
 (42,1,1) = {"
@@ -5443,20 +5688,20 @@ JF
 JF
 JF
 JF
-JF
+Ug
 qa
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
-JF
+rS
+nl
+bD
+nl
+bD
+nl
+LG
+Fo
+cb
+nl
+RB
 PU
-wF
-wF
 wF
 "}
 (43,1,1) = {"
@@ -5545,20 +5790,20 @@ JF
 JF
 JF
 JF
-JF
-qa
-xD
-xD
-xD
+Ug
 qa
 qa
 qa
-xD
-xD
-xD
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
 PU
-wF
-wF
 wF
 "}
 (44,1,1) = {"
@@ -5639,15 +5884,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 wF
 wF
 wF
@@ -5741,15 +5986,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 wF
 wF
 wF
@@ -5843,15 +6088,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 wF
 wF
 wF
@@ -5945,15 +6190,15 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 wF
 wF
 wF
@@ -6047,6 +6292,15 @@ wF
 wF
 wF
 wF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 wF
 wF
 wF
@@ -6056,17 +6310,8 @@ wF
 wF
 wF
 wF
-GQ
-qn
-qn
-qn
-GQ
-Tf
-Tf
-qn
-qn
-qn
-Tf
+wF
+wF
 wF
 wF
 wF
@@ -6158,17 +6403,17 @@ wF
 wF
 wF
 wF
-GQ
-nY
-bg
-bg
-Jm
-Jm
-nv
-bg
-bg
-bg
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6260,17 +6505,17 @@ wF
 wF
 wF
 wF
-GQ
-nY
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6362,17 +6607,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6464,17 +6709,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-cK
-gt
-gt
-gt
-cK
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6566,17 +6811,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-IL
-bV
-jf
-XD
-qQ
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6668,17 +6913,17 @@ wF
 wF
 wF
 wF
-GQ
-Yp
-bg
-IL
-tK
-rE
-WA
-qQ
-bg
-tM
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6770,17 +7015,17 @@ wF
 wF
 wF
 wF
-DJ
-bg
-bg
-IL
-bV
-bV
-zd
-qQ
-bg
-Bi
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6872,17 +7117,17 @@ wF
 wF
 wF
 wF
-FL
-bg
-bg
-IL
-cy
-bV
-bV
-qQ
-bg
-Sm
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -6974,17 +7219,17 @@ wF
 wF
 wF
 wF
-GQ
-Yp
-bg
-IL
-bV
-rE
-AF
-qQ
-bg
-oV
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7076,17 +7321,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-IL
-bV
-cs
-bV
-qQ
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7178,17 +7423,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-cK
-gH
-gH
-gH
-cK
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7280,17 +7525,17 @@ wF
 wF
 wF
 wF
-hj
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-qn
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7382,17 +7627,17 @@ wF
 wF
 wF
 wF
-GQ
-nY
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-bg
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7484,17 +7729,17 @@ wF
 wF
 wF
 wF
-GQ
-nY
-bg
-bg
-nv
-Jm
-Jm
-bg
-bg
-bg
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7586,17 +7831,17 @@ wF
 wF
 wF
 wF
-GQ
-qn
-qn
-qn
-GQ
-GQ
-GQ
-qn
-qn
-qn
-Tf
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
+wF
 wF
 wF
 wF
@@ -7994,17 +8239,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+qn
+qn
+qn
+GQ
+Tf
+Tf
+qn
+qn
+qn
+Tf
 wF
 wF
 wF
@@ -8096,17 +8341,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+nY
+bg
+bg
+Jm
+Jm
+nv
+bg
+bg
+bg
+Tf
 wF
 wF
 wF
@@ -8198,17 +8443,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+nY
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+Tf
 wF
 wF
 wF
@@ -8300,17 +8545,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+qn
 wF
 wF
 wF
@@ -8402,17 +8647,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+cK
+gt
+gt
+gt
+cK
+bg
+bg
+qn
 wF
 wF
 wF
@@ -8504,17 +8749,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+fL
+bV
+jf
+XD
+qQ
+bg
+bg
+qn
 wF
 wF
 wF
@@ -8606,17 +8851,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+Yp
+bg
+IL
+tK
+rE
+WA
+qQ
+bg
+tM
+Tf
 wF
 wF
 wF
@@ -8708,17 +8953,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+DJ
+bg
+bg
+IL
+bV
+bV
+zd
+qQ
+bg
+Bi
+Tf
 wF
 wF
 wF
@@ -8810,17 +9055,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+FL
+bg
+bg
+IL
+cy
+bV
+bV
+qQ
+bg
+Sm
+Tf
 wF
 wF
 wF
@@ -8912,17 +9157,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+Yp
+bg
+IL
+bV
+rE
+AF
+qQ
+bg
+oV
+Tf
 wF
 wF
 wF
@@ -9014,17 +9259,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+IL
+bV
+cs
+bV
+qQ
+bg
+bg
+qn
 wF
 wF
 wF
@@ -9116,17 +9361,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+cK
+gH
+gH
+gH
+cK
+bg
+bg
+qn
 wF
 wF
 wF
@@ -9218,17 +9463,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+hj
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+qn
 wF
 wF
 wF
@@ -9320,17 +9565,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+nY
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+bg
+Tf
 wF
 wF
 wF
@@ -9422,17 +9667,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+nY
+bg
+bg
+nv
+Jm
+Jm
+bg
+bg
+bg
+Tf
 wF
 wF
 wF
@@ -9524,17 +9769,17 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+GQ
+qn
+qn
+qn
+GQ
+GQ
+GQ
+qn
+qn
+qn
+Tf
 wF
 wF
 wF
