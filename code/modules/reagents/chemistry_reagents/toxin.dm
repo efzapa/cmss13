@@ -358,15 +358,6 @@
 	chemclass = CHEM_CLASS_SPECIAL
 	properties = list(PROPERTY_BIOCIDIC = 5, PROPERTY_CORROSIVE = 3)
 
-/datum/reagent/toxin/hemotoxic
-	name = "Hemotoxic"
-	id = "hemotoxic"
-	description = "A toxin that causes severe damage to blood vessels, leading to internal bleeding and organ failure."
-	reagent_state = LIQUID
-	color = "#520000" // rgb: 82, 0, 0
-	chemclass = CHEM_CLASS_SPECIAL
-	properties = list(PROPERTY_HEMORRAGING = 5, PROPERTY_HEMOLYTIC = 3)
-
 /datum/reagent/toxin/hemophagic_necrosin
 	name = "Hemophagic Necrosin"
 	id = "hemophagic_necrosin"

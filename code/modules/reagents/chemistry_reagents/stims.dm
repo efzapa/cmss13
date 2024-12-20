@@ -71,3 +71,22 @@
 		PROPERTY_HYPERDENSIFICATING = 1,
 		PROPERTY_ORGANSTABILIZE = 1,
 	)
+
+//CLF STIMS, THESE SHOULD NOT BE NORMALLY OBTAINABLE
+
+/datum/reagent/stimulant/stimulor
+	name = "Stimulor"
+	id = "stimulor"
+	description = "A highly experimental stimulant that increases speed and provides resistance to stun and neurotoxins, but causes addiction and heart damage."
+	color = "#ff00ff"
+	chemclass = CHEM_CLASS_SPECIAL
+	custom_metabolism = AMOUNT_PER_TIME(5, 60 SECONDS)
+	overdose = LOW_REAGENTS_OVERDOSE
+	overdose_critical = LOW_REAGENTS_OVERDOSE_CRITICAL
+	properties = list(
+		PROPERTY_MUSCLESTIMULATING = 30,
+		PROPERTY_NERVESTIMULATING = 20,
+		PROPERTY_NEUROSHIELDING = 15,
+		PROPERTY_ADDICTIVE = 10,
+		PROPERTY_CARDIOTOXIC = 2
+	)
