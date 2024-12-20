@@ -283,3 +283,95 @@
 	reagent_state = LIQUID
 	chemclass = CHEM_CLASS_NONE
 	properties = list(PROPERTY_CORROSIVE = 2, PROPERTY_TOXIC = 1, PROPERTY_CROSSMETABOLIZING = 3)
+
+//CLF TOXINS, THESE SHOULD NOT BE NORMALLY OBTAINABLE
+
+/datum/reagent/toxin/hepatotoxin
+	name = "Hepatotoxin"
+	id = "hepatotoxin"
+	description = "A deadly toxin that specifically targets the liver, causing rapid liver failure."
+	reagent_state = LIQUID
+	color = "#FFD700" // rgb: 255, 215, 0
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_HEPATOTOXIC = 5, PROPERTY_TOXIC = 3)
+
+/datum/reagent/toxin/nephrotoxin
+	name = "Nephrotoxin"
+	id = "nephrotoxin"
+	description = "A powerful toxin that causes severe damage to the kidneys, leading to kidney failure."
+	reagent_state = LIQUID
+	color = "#4B0082" // rgb: 75, 0, 130
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_NEPHROTOXIC = 5, PROPERTY_TOXIC = 3)
+
+/datum/reagent/toxin/cardiotoxin
+	name = "Cardiotoxin"
+	id = "cardiotoxin"
+	description = "A highly toxic substance that disrupts the cardiac cycle, potentially leading to cardiac arrest."
+	reagent_state = LIQUID
+	color = "#FF4500" // rgb: 255, 69, 0
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_CARDIOTOXIC = 5, PROPERTY_TOXIC = 3)
+
+/datum/reagent/toxin/pneumotoxin
+	name = "Pneumotoxin"
+	id = "pneumotoxin"
+	description = "A dangerous toxin that damages lung tissue, leading to respiratory failure."
+	reagent_state = LIQUID
+	color = "#00CED1" // rgb: 0, 206, 209
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_PNEUMOTOXIC = 5, PROPERTY_HYPOXEMIC = 3)
+
+/datum/reagent/toxin/hemotoxin
+	name = "Hemotoxin"
+	id = "hemotoxin"
+	description = "A lethal toxin that causes severe internal bleeding and destruction of blood cells."
+	reagent_state = LIQUID
+	color = "#B22222" // rgb: 178, 34, 34
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_HEMORRAGING = 5, PROPERTY_HEMOLYTIC = 3)
+
+/datum/reagent/toxin/carcinotoxin
+	name = "Carcinotoxin"
+	id = "carcinotoxin"
+	description = "A highly carcinogenic substance that causes rapid cell mutation and cancer."
+	reagent_state = LIQUID
+	color = "#FF1493" // rgb: 255, 20, 147
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_CARCINOGENIC = 5, PROPERTY_TOXIC = 3)
+
+/datum/reagent/toxin/oculotoxin
+	name = "Oculotoxin"
+	id = "oculotoxin"
+	description = "A toxin that specifically targets the eyes, leading to blindness."
+	reagent_state = LIQUID
+	color = "#00008B" // rgb: 0, 0, 139
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_OCULOTOXIC = 5, PROPERTY_TOXIC = 3)
+
+/datum/reagent/toxin/biotoxin
+	name = "Biotoxin"
+	id = "biotoxin"
+	description = "A potent biocidic toxin that destroys organic tissue on contact."
+	reagent_state = LIQUID
+	color = "#228B22" // rgb: 34, 139, 34
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_BIOCIDIC = 5, PROPERTY_CORROSIVE = 3)
+
+/datum/reagent/toxin/hemotoxic
+	name = "Hemotoxic"
+	id = "hemotoxic"
+	description = "A toxin that causes severe damage to blood vessels, leading to internal bleeding and organ failure."
+	reagent_state = LIQUID
+	color = "#520000" // rgb: 82, 0, 0
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_HEMORRAGING = 5, PROPERTY_HEMOLYTIC = 3)
+
+/datum/reagent/toxin/hemophagic_necrosin
+	name = "Hemophagic Necrosin"
+	id = "hemophagic_necrosin"
+	description = "A parasitic compound that aggressively consumes erythrocytes to fuel its own replication, leading to severe hematological deterioration. First synthesized in classified USCM research facilities, it has subsequently been banned by over 20 inter-planetary accords and treaties. The compound is now only seen in the hands of CLF Operatives."
+	reagent_state = LIQUID
+	color = "#8B0000" // rgb: 139, 0, 0
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_HEMOSITIC = 5, PROPERTY_TOXIC = 3)
