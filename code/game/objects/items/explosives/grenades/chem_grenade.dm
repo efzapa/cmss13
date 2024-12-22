@@ -480,7 +480,7 @@
 
 /obj/item/explosive/grenade/custom/hemophagic_necrosin
 	name = "hemophagic necrosin grenade"
-	desc = "A grenade filled with a deadly parasitic compound that aggressively consumes erythrocytes to fuel its own replication, leading to severe hematological deterioration. First synthesized in classified USCM research facilities, it has subsequently been banned by over 20 inter-planetary accords and treaties. The compound is now only seen in the hands of CLF Operatives. Handle with extreme caution."
+	desc = "A grenade filled with a deadly parasitic compound that aggressively consumes erythrocytes to fuel its own replication, leading to severe hematological deterioration. First synthesized in classified USCM research facilities, it has subsequently been banned by over 20 inter-planetary accords and treaties. This particular ordnance is now only seen in the hands of CLF Operatives. Handle with extreme caution."
 	assembly_stage = ASSEMBLY_LOCKED
 	harmful = TRUE
 	antigrief_protection = FALSE

@@ -367,4 +367,11 @@
 	chemclass = CHEM_CLASS_SPECIAL
 	properties = list(PROPERTY_HEMOSITIC = 5, PROPERTY_TOXIC = 3)
 
-//TODO: medicine purging toxin
+/datum/reagent/toxin/purgative
+	name = "Purgative"
+	id = "purgative"
+	description = "A potent toxin that absorbs and neutralizes medicines in the bloodstream."
+	reagent_state = LIQUID
+	color = "#8A2BE2" // rgb: 138, 43, 226
+	chemclass = CHEM_CLASS_SPECIAL
+	properties = list(PROPERTY_PURGING = 1, PROPERTY_TOXIC = 1)

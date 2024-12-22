@@ -507,3 +507,21 @@
 
 /datum/chem_property/negative/hemositic/process_critical(mob/living/M, potency = 1, delta_time)
 	M.disabilities |= NERVOUS
+
+/datum/chem_property/positive/purging
+	name = PROPERTY_PURGING
+	code = "PRG"
+	description = "Absorbs and neutralizes medicines in the bloodstream."
+	rarity = PROPERTY_ADMIN
+	starter = TRUE
+	value = 1
+
+/datum/chem_property/positive/purging/process(mob/living/M, potency = 1)
+	M.apply_damage(-(potency * POTENCY_MULTIPLIER_MEDIUM), TOX)
+	M.reagents.remove_all_type(/datum/reagent/medical, REM, 0, 1)
+
+/datum/chem_property/positive/purging/process_overdose(mob/living/M, potency = 1, delta_time)
+	M.apply_internal_damage(0.5 * potency * delta_time, "liver")
+
+/datum/chem_property/positive/purging/process_critical(mob/living/M, potency = 1, delta_time)
+	M.drowsyness  = max(M.drowsyness, 30)
