@@ -361,8 +361,10 @@
 /datum/reagent/toxin/hemophagic_necrosin
 	name = "Hemophagic Necrosin"
 	id = "hemophagic_necrosin"
-	description = "A parasitic compound that aggressively consumes erythrocytes to fuel its own replication, leading to severe hematological deterioration. First synthesized in classified USCM research facilities, it has subsequently been banned by over 20 inter-planetary accords and treaties. The compound is now only seen in the hands of CLF Operatives."
+	description = "A parasitic compound that aggressively consumes blood to fuel its own replication."
 	reagent_state = LIQUID
 	color = "#8B0000" // rgb: 139, 0, 0
 	chemclass = CHEM_CLASS_SPECIAL
 	properties = list(PROPERTY_HEMOSITIC = 5, PROPERTY_TOXIC = 3)
+
+//TODO: medicine purging toxin

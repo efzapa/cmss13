@@ -269,3 +269,235 @@
 	containers += B2
 
 	update_icon()
+
+/obj/item/explosive/grenade/custom/large/biotoxin
+	name = "biotoxin grenade"
+	desc = "A grenade filled with a deadly biotoxin. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/large/biotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/large/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("biotoxin", 75)
+	B2.reagents.add_reagent("potassium", 60)
+	B2.reagents.add_reagent("phosphorus", 60)
+	B3.reagents.add_reagent("sugar", 60)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/hepatotoxin
+	name = "hepatotoxin grenade"
+	desc = "A grenade filled with a deadly hepatotoxin that targets the liver. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/hepatotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("hepatotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/nephrotoxin
+	name = "nephrotoxin grenade"
+	desc = "A grenade filled with a deadly nephrotoxin that targets the kidneys. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/nephrotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("nephrotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/cardiotoxin
+	name = "cardiotoxin grenade"
+	desc = "A grenade filled with a deadly cardiotoxin that targets the heart. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/cardiotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("cardiotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/pneumotoxin
+	name = "pneumotoxin grenade"
+	desc = "A grenade filled with a deadly pneumotoxin that targets the lungs. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/pneumotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("pneumotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/hemotoxin
+	name = "hemotoxin grenade"
+	desc = "A grenade filled with a deadly hemotoxin that targets the blood vessels and causes severe bleeding. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/hemotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("hemotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/carcinotoxin
+	name = "carcinotoxin grenade"
+	desc = "A grenade filled with a deadly carcinotoxin that causes rapid cell mutation. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/carcinotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("carcinotoxin", 10) //less than the other grenades because rad damage sucks to get rid of
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/oculotoxin
+	name = "oculotoxin grenade"
+	desc = "A grenade filled with a deadly oculotoxin that targets the eyes. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/oculotoxin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/large/B2 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B3 = new(src)
+
+	B1.reagents.add_reagent("oculotoxin", 50)
+	B2.reagents.add_reagent("potassium", 50)
+	B2.reagents.add_reagent("phosphorus", 50)
+	B3.reagents.add_reagent("sugar", 50)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	containers += B3
+	update_icon()
+
+/obj/item/explosive/grenade/custom/hemophagic_necrosin
+	name = "hemophagic necrosin grenade"
+	desc = "A grenade filled with a deadly parasitic compound that aggressively consumes erythrocytes to fuel its own replication, leading to severe hematological deterioration. First synthesized in classified USCM research facilities, it has subsequently been banned by over 20 inter-planetary accords and treaties. The compound is now only seen in the hands of CLF Operatives. Handle with extreme caution."
+	assembly_stage = ASSEMBLY_LOCKED
+	harmful = TRUE
+	antigrief_protection = FALSE
+
+/obj/item/explosive/grenade/custom/hemophagic_necrosin/Initialize()
+	. = ..()
+	var/obj/item/reagent_container/glass/beaker/B1 = new(src)
+	var/obj/item/reagent_container/glass/beaker/B2 = new(src)
+
+	B1.reagents.add_reagent("hemophagic_necrosin", 5) //lower than the other grenades because this basically promises death/round-removal unless you get dialysis AND a blood transfusion extremely fast
+	B2.reagents.add_reagent("potassium", 25)
+	B2.reagents.add_reagent("phosphorus", 25)
+	B1.reagents.add_reagent("sugar", 25)
+	has_blast_wave_dampener = FALSE
+
+	detonator = new/obj/item/device/assembly_holder/timer_igniter(src)
+
+	containers += B1
+	containers += B2
+	update_icon()
