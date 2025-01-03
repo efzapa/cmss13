@@ -45,6 +45,7 @@
 
 	var/deffont = "Verdana"
 	var/signfont = "Times New Roman"
+	var/fancysignfont = "The Signature"
 	var/crayonfont = "Comic Sans MS"
 
 	/// If this paper imports a prefab on instance.

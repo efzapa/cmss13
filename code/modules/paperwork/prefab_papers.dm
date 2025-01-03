@@ -228,3 +228,51 @@ GLOBAL_REFERENCE_LIST_INDEXED(prefab_papers, /obj/item/paper/prefab, document_ti
 /obj/item/paper/prefab/wey_yu/standard
 	document_title = "WY101 - Directorate Communication"
 	doc_datum_type = /datum/prefab_document/wey_yu/highcom/standard
+
+// ########## CLF Forms  ########## \\
+
+/obj/item/paper/prefab/clf
+	name = "Blank CLF Document"
+	document_category = PAPER_CATEGORY_CLF
+
+// ########## CLF HC Forms  ########## \\
+
+/obj/item/paper/prefab/clf_highcom
+	name = "Blank CLFHC Document"
+	document_category = PAPER_CATEGORY_CLF_HC
+
+// ########## TWE Forms  ########## \\
+
+/obj/item/paper/prefab/twe
+	name = "Blank TWE Document"
+	document_category = PAPER_CATEGORY_TWE
+
+// ########## TWE HC Forms  ########## \\
+
+/obj/item/paper/prefab/twe_highcom
+	name = "Blank TWEHC Document"
+	document_category = PAPER_CATEGORY_TWE_HC
+
+// ########## UPP Forms  ########## \\
+
+/obj/item/paper/prefab/upp
+	name = "Blank UPP Document"
+	document_category = PAPER_CATEGORY_UPP
+
+// ########## UPP HC Forms  ########## \\
+
+/obj/item/paper/prefab/upp_highcom
+	name = "Blank UPPHC Document"
+	document_category = PAPER_CATEGORY_UPP_HC
+
+// ########## CMB Forms  ########## \\
+
+/obj/item/paper/prefab/cmb
+	name = "Blank CMB Document"
+	document_category = PAPER_CATEGORY_CMB
+
+// ########## CMB HC Forms  ########## \\
+
+/obj/item/paper/prefab/cmb_highcom
+	name = "Blank CMBHC Document"
+	document_category = PAPER_CATEGORY_CMB_HC
