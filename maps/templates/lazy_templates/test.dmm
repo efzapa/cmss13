@@ -1,4 +1,200 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ab" = (
+/obj/structure/surface/rack,
+/obj/item/tool/minihoe{
+	pixel_x = -4
+	},
+/obj/item/tool/minihoe{
+	pixel_x = 4
+	},
+/obj/item/tool/minihoe{
+	pixel_y = -4
+	},
+/obj/item/tool/wirecutters/clippers{
+	pixel_y = -4
+	},
+/obj/item/tool/wirecutters/clippers{
+	pixel_y = -2
+	},
+/obj/item/tool/wirecutters/clippers,
+/turf/open/floor/almayer/green/southwest,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ac" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 3
+	},
+/obj/item/device/analyzer/plant_analyzer,
+/turf/open/floor/almayer/green,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ad" = (
+/obj/structure/machinery/seed_extractor,
+/obj/structure/machinery/light{
+	dir = 2
+	},
+/turf/open/floor/almayer/green/northwest,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ae" = (
+/obj/structure/surface/rack,
+/obj/item/storage/bag/plants{
+	pixel_x = -3
+	},
+/obj/item/storage/bag/plants{
+	pixel_x = 3
+	},
+/obj/item/storage/bag/plants{
+	pixel_y = -3
+	},
+/obj/item/tool/scythe,
+/turf/open/floor/almayer/green/north,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"af" = (
+/obj/structure/surface/rack,
+/obj/item/tool/shovel/spade{
+	pixel_x = -4
+	},
+/obj/item/tool/shovel/spade{
+	pixel_x = 4
+	},
+/obj/item/tool/shovel/spade,
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/reagent_container/glass/bucket,
+/obj/item/reagent_container/glass/watertank,
+/turf/open/floor/almayer/green/north,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ag" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ah" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ai" = (
+/obj/effect/decal/cleanable/tomato_smudge,
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aj" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ak" = (
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"al" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"am" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = 10
+	},
+/turf/open/floor/almayer/green/east,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"an" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/buritto,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ao" = (
+/obj/structure/filingcabinet/seeds,
+/turf/open/floor/almayer/green/west,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ap" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/almayer/green/east,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aq" = (
+/obj/structure/filingcabinet/documentation/liaison{
+	pixel_x = 8
+	},
+/obj/structure/filingcabinet/documentation/liaison{
+	pixel_x = -8
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"ar" = (
+/obj/structure/filingcabinet/documentation/liaison{
+	pixel_x = -8
+	},
+/obj/structure/filingcabinet/documentation/liaison{
+	pixel_x = 8
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"as" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"at" = (
+/obj/effect/decal/cleanable/flour,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"au" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/almayer/green/west,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"av" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aw" = (
+/obj/structure/machinery/vending/hydroseeds,
+/turf/open/floor/almayer/green/east,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ax" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"ay" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"az" = (
+/obj/structure/machinery/vending/hydronutrients,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer/green/east,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aA" = (
+/obj/structure/machinery/gibber,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aB" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/almayer/green/east,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aC" = (
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aD" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/kitchen/knife/butcher,
+/obj/item/clothing/suit/chef/classic,
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "aE" = (
 /turf/closed/wall/almayer/research/containment/wall/corner,
 /area/adminlevel/ert_station/weyland_station/med)
@@ -9,6 +205,81 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station)
+"aG" = (
+/obj/effect/decal/cleanable/tomato_smudge,
+/turf/open/floor/prison/kitchen,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aH" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/burger,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aI" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/kitchen/knife,
+/obj/item/tool/kitchen/utensil/fork{
+	pixel_x = 7
+	},
+/obj/item/tool/kitchen/utensil/spoon{
+	pixel_x = -8
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aJ" = (
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/almayer_B{
+	climbable = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aK" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/green/west,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aL" = (
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/almayer_B{
+	climbable = 0
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aM" = (
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aO" = (
+/obj/structure/surface/rack,
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = 6
+	},
+/obj/item/reagent_container/spray/cleaner,
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = -6
+	},
+/turf/open/floor/almayer/plate,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aP" = (
+/turf/open/floor/almayer/green/northwest,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aQ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/green/north,
+/area/adminlevel/ert_station/weyland_station/lounge)
+"aR" = (
+/turf/open/floor/almayer/green/northeast,
+/area/adminlevel/ert_station/weyland_station/lounge)
 "aX" = (
 /obj/structure/machinery/iv_drip,
 /turf/open/floor/almayer/sterile_green_side/north,
@@ -23,14 +294,9 @@
 /turf/open/floor/corsat/white/west,
 /area/adminlevel/ert_station/weyland_station)
 "bD" = (
-/obj/structure/machinery/microwave{
-	density = 0;
-	pixel_y = 9
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	climbable = 0
-	},
-/turf/open/floor/prison/kitchen,
+/obj/structure/machinery/processor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "bS" = (
 /obj/structure/machinery/shower{
@@ -54,15 +320,15 @@
 /area/space)
 "cb" = (
 /obj/structure/closet/secure_closet/fridge/meat/stock,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "cs" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/paper_bin/uscm{
 	pixel_y = 6
 	},
-/obj/item/tool/pen/fountain{
-	pixel_y = 4
+/obj/item/tool/pen/multicolor/fountain{
+	pixel_x = 4
 	},
 /turf/open/floor/carpet,
 /area/space)
@@ -105,7 +371,6 @@
 	},
 /area/adminlevel/ert_station/weyland_station/med)
 "dZ" = (
-/obj/structure/closet/l3closet/general,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 80
@@ -121,7 +386,7 @@
 /area/adminlevel/ert_station/weyland_station/lounge)
 "eq" = (
 /obj/structure/closet/secure_closet/fridge/organic/stock,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "eL" = (
 /obj/structure/machinery/chem_master,
@@ -392,7 +657,7 @@
 	name = "\improper Laundry Room";
 	req_access_txt = "200"
 	},
-/turf/closed/wall/r_wall/biodome,
+/turf/open/space/basic,
 /area/adminlevel/ert_station/weyland_station)
 "nL" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -431,7 +696,7 @@
 	id_tag = "wy-ert-reception";
 	req_access_txt = "200"
 	},
-/turf/closed/wall/r_wall/biodome,
+/turf/open/space/basic,
 /area/adminlevel/ert_station/weyland_station)
 "oV" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -546,7 +811,7 @@
 /area/adminlevel/ert_station/weyland_station/med)
 "rS" = (
 /obj/structure/machinery/vending/ingredients,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "tn" = (
 /obj/structure/machinery/cryo_cell,
@@ -573,6 +838,9 @@
 	pixel_x = -7;
 	pixel_y = 11
 	},
+/obj/item/tool/pen/multicolor/fountain{
+	pixel_x = 4
+	},
 /turf/open/floor/carpet,
 /area/space)
 "tM" = (
@@ -595,7 +863,6 @@
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "uR" = (
-/obj/structure/closet/l3closet/general,
 /obj/structure/machinery/light{
 	dir = 8
 	},
@@ -768,7 +1035,10 @@
 /area/adminlevel/ert_station/weyland_station/med)
 "Cs" = (
 /obj/structure/surface/table/almayer,
-/turf/open/floor/prison/kitchen,
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 10
+	},
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "CW" = (
 /obj/structure/bed/chair/comfy/orange{
@@ -858,7 +1128,7 @@
 /area/adminlevel/ert_station/weyland_station/med)
 "Fo" = (
 /obj/structure/closet/secure_closet/fridge/groceries/stock,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "FL" = (
 /turf/open/floor/corsat/squares,
@@ -958,7 +1228,7 @@
 /area/adminlevel/ert_station/weyland_station/lounge)
 "Kc" = (
 /obj/structure/machinery/vending/dinnerware,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "Kd" = (
 /obj/structure/window/framed/corsat/indestructible,
@@ -998,7 +1268,7 @@
 /area/adminlevel/ert_station/weyland_station/lounge)
 "LG" = (
 /obj/structure/closet/secure_closet/fridge/fish/stock,
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "LJ" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -1210,7 +1480,7 @@
 	name = "Kitchen Shutters";
 	pixel_x = -5
 	},
-/turf/open/floor/prison/kitchen,
+/turf/open/floor/almayer/plate,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "Tb" = (
 /obj/structure/machinery/cm_vending/sorted/medical/chemistry/no_access{
@@ -1256,6 +1526,7 @@
 /obj/structure/surface/table/reinforced/almayer_B{
 	climbable = 0
 	},
+/obj/structure/machinery/door/window/brigdoor/southleft,
 /turf/open/floor/prison/kitchen,
 /area/adminlevel/ert_station/weyland_station/lounge)
 "Ug" = (
@@ -4366,15 +4637,15 @@ JF
 qa
 JF
 JF
+aa
 JF
 JF
 JF
 JF
+aa
 JF
-JF
-JF
-JF
-JF
+aa
+aa
 PU
 wF
 "}
@@ -4466,17 +4737,17 @@ JF
 Is
 JF
 LR
+aa
 JF
-JF
+as
 TY
+aC
+aa
+JF
+as
 TY
 JF
-JF
-JF
-TY
-TY
-JF
-JF
+aa
 PU
 wF
 "}
@@ -4571,9 +4842,9 @@ LR
 JF
 Gr
 Fe
-vV
+aH
 DA
-JF
+aa
 Gr
 XO
 Fe
@@ -4678,8 +4949,8 @@ DA
 JF
 Gr
 ur
-vV
-DA
+an
+ag
 JF
 xD
 wF
@@ -4772,7 +5043,7 @@ Gf
 JF
 JF
 qa
-JF
+aN
 Gr
 XO
 Aj
@@ -4874,17 +5145,17 @@ qG
 JF
 JF
 qa
-JF
-JF
+aa
+aa
 cU
 cU
 JF
-JF
+aa
 JF
 cU
 cU
-JF
-JF
+aa
+aa
 xD
 wF
 "}
@@ -4977,13 +5248,13 @@ JF
 JF
 em
 JF
+aa
 JF
+aa
 JF
-JF
-JF
-JF
-JF
-JF
+aa
+aa
+aa
 JF
 JF
 JF
@@ -5083,12 +5354,12 @@ JF
 JF
 JF
 JF
+aa
 JF
+aa
 JF
-JF
-JF
-JF
-JF
+aa
+aa
 PU
 wF
 "}
@@ -5182,14 +5453,14 @@ JF
 qa
 JF
 JF
-JF
+aa
 JF
 KP
 KP
 KP
 kT
 JF
-JF
+aa
 JF
 PU
 wF
@@ -5384,13 +5655,13 @@ JF
 JF
 JF
 LR
+aO
+ah
 nl
 nl
 nl
 nl
-nl
-nl
-nl
+at
 nl
 nl
 nl
@@ -5486,16 +5757,16 @@ JF
 Yv
 WE
 Ue
+aM
+ah
+ax
+aI
+aD
 nl
-nl
-Cs
-Cs
-Cs
-nl
-Cs
+ax
 Cs
 SF
-nl
+ah
 eq
 xD
 wF
@@ -5591,13 +5862,13 @@ LR
 Kc
 nl
 nl
+ah
+aG
 nl
 nl
+at
 nl
-nl
-nl
-nl
-nl
+ah
 qD
 xD
 wF
@@ -5691,15 +5962,15 @@ JF
 Ug
 qa
 rS
-nl
+aM
+aL
+aJ
 bD
-nl
-bD
-nl
+aA
 LG
 Fo
 cb
-nl
+ai
 RB
 PU
 wF
@@ -5801,7 +6072,7 @@ qa
 qa
 qa
 qa
-qa
+aj
 qa
 PU
 wF
@@ -5893,19 +6164,19 @@ JF
 JF
 JF
 JF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+aP
+au
+aK
+aK
+au
+au
+au
+au
+ao
+ak
+ab
+PU
 wF
 "}
 (45,1,1) = {"
@@ -5995,19 +6266,19 @@ JF
 JF
 JF
 JF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+aQ
+ak
+ak
+ak
+ak
+ak
+al
+ak
+al
+ak
+ac
+PU
 wF
 "}
 (46,1,1) = {"
@@ -6097,19 +6368,19 @@ JF
 JF
 JF
 JF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+aQ
+av
+av
+ak
+av
+ak
+ay
+av
+al
+al
+ad
+PU
 wF
 "}
 (47,1,1) = {"
@@ -6199,19 +6470,19 @@ JF
 JF
 JF
 JF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+aQ
+ak
+ak
+al
+ak
+al
+al
+ak
+ak
+ak
+ae
+PU
 wF
 "}
 (48,1,1) = {"
@@ -6301,19 +6572,19 @@ JF
 JF
 JF
 JF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+aR
+aB
+aB
+aB
+aB
+aB
+az
+aw
+ap
+am
+af
+PU
 wF
 "}
 (49,1,1) = {"
@@ -6403,19 +6674,19 @@ wF
 wF
 wF
 wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+qa
+PU
 wF
 "}
 (50,1,1) = {"
@@ -8350,7 +8621,7 @@ Jm
 nv
 bg
 bg
-bg
+aq
 Tf
 wF
 wF
@@ -8452,7 +8723,7 @@ bg
 bg
 bg
 bg
-bg
+ar
 Tf
 wF
 wF
@@ -9574,7 +9845,7 @@ bg
 bg
 bg
 bg
-bg
+ar
 Tf
 wF
 wF
@@ -9676,7 +9947,7 @@ Jm
 Jm
 bg
 bg
-bg
+ar
 Tf
 wF
 wF
