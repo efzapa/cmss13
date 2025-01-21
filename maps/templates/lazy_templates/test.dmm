@@ -375,6 +375,7 @@
 	dir = 8;
 	health = 80
 	},
+/obj/structure/closet/l3closet/scientist,
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
 "em" = (
@@ -870,6 +871,7 @@
 	dir = 4;
 	health = 80
 	},
+/obj/structure/closet/l3closet/scientist,
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
 "vb" = (
@@ -1403,7 +1405,7 @@
 	dir = 4;
 	health = 80
 	},
-/obj/structure/closet/l3closet/virology,
+/obj/structure/closet/l3closet/scientist,
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station/med)
 "Rg" = (
