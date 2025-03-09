@@ -6,7 +6,7 @@
 
 import { storage } from 'common/storage';
 
-import { setClientTheme } from '../themes';
+import { setClientTheme, THEMES } from '../themes';
 import {
   addHighlightSetting,
   loadSettings,
@@ -50,6 +50,13 @@ export const settingsMiddleware = (store) => {
       const theme = payload?.theme;
       if (theme) {
         setClientTheme(theme);
+      } else if (type === loadSettings.type) {
+        store.dispatch(
+          updateSettings({
+            theme: THEMES[0],
+          }),
+        );
+        setClientTheme(THEMES[0]);
       }
       // Pass action to get an updated state
       next(action);
